@@ -13,6 +13,10 @@
 		541C32AA29BF3E6500C26FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541C32A829BF3E6500C26FEC /* Main.storyboard */; };
 		541C32AC29BF3E6700C26FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541C32AB29BF3E6700C26FEC /* Assets.xcassets */; };
 		541C32AF29BF3E6700C26FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541C32AD29BF3E6700C26FEC /* LaunchScreen.storyboard */; };
+		541C32B829BF4A8400C26FEC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C32B629BF4A8400C26FEC /* SecondViewController.swift */; };
+		541C32B929BF4A8400C26FEC /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 541C32B729BF4A8400C26FEC /* SecondViewController.xib */; };
+		541C32BC29BF505E00C26FEC /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C32BA29BF505E00C26FEC /* ThirdViewController.swift */; };
+		541C32BD29BF505E00C26FEC /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 541C32BB29BF505E00C26FEC /* ThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		541C32AB29BF3E6700C26FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		541C32AE29BF3E6700C26FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		541C32B029BF3E6700C26FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541C32B629BF4A8400C26FEC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		541C32B729BF4A8400C26FEC /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		541C32BA29BF505E00C26FEC /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		541C32BB29BF505E00C26FEC /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				541C32AB29BF3E6700C26FEC /* Assets.xcassets */,
 				541C32AD29BF3E6700C26FEC /* LaunchScreen.storyboard */,
 				541C32B029BF3E6700C26FEC /* Info.plist */,
+				541C32B629BF4A8400C26FEC /* SecondViewController.swift */,
+				541C32B729BF4A8400C26FEC /* SecondViewController.xib */,
+				541C32BA29BF505E00C26FEC /* ThirdViewController.swift */,
+				541C32BB29BF505E00C26FEC /* ThirdViewController.xib */,
 			);
 			path = "Praktika 3M";
 			sourceTree = "<group>";
@@ -125,8 +137,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				541C32B929BF4A8400C26FEC /* SecondViewController.xib in Resources */,
 				541C32AF29BF3E6700C26FEC /* LaunchScreen.storyboard in Resources */,
 				541C32AC29BF3E6700C26FEC /* Assets.xcassets in Resources */,
+				541C32BD29BF505E00C26FEC /* ThirdViewController.xib in Resources */,
 				541C32AA29BF3E6500C26FEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				541C32B829BF4A8400C26FEC /* SecondViewController.swift in Sources */,
 				541C32A729BF3E6500C26FEC /* ViewController.swift in Sources */,
+				541C32BC29BF505E00C26FEC /* ThirdViewController.swift in Sources */,
 				541C32A329BF3E6500C26FEC /* AppDelegate.swift in Sources */,
 				541C32A529BF3E6500C26FEC /* SceneDelegate.swift in Sources */,
 			);
